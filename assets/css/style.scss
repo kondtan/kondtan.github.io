@@ -1,0 +1,17 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.social-media-list {
+    display: flex;
+}
+
+.social-media-list li {
+    width: 150px;
+    color: rgb(73, 73, 73);
+}
+
+.social-media-list li + li {
+    padding-top: 0;
+}
