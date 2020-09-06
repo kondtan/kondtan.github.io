@@ -24,6 +24,9 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
+      {% if page.related_image %}
+        <img src="{{ page.related_image }}" alt="">
+      {% endif %}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
