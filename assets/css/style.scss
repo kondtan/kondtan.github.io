@@ -16,6 +16,40 @@
     padding-top: 0;
 }
 
+.projects-list {
+    margin-left: 0;
+    margin-bottom: 40px;
+    padding: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    list-style: none;
+    box-shadow: 0 0 60px 30px rgba(0,0,0,.08);
+    border-radius: 2px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-link {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-item {
+    margin-bottom: 30px;
+
+    &:nth-child(3n+2),
+    &:nth-child(3n+3) {
+        margin-left: 30px;   
+    }
+}
+
+.project-item-img {
+    max-width: 200px;
+}
+
 .post-list {
     height: auto;
 
